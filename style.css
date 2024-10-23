@@ -92,7 +92,7 @@ body{
 
 .cabeçario-1{
     
-    background-color: #c4ceb3;
+    background-color: #f6feff;
     display: flex;
     justify-items: center;
     
@@ -137,7 +137,7 @@ body{
     width: 78%;
 }
 .começo{
-    background-color: #f8f4eb;
+    background-color: #f0fafd;
     display: flex;
     justify-content: center;
     align-items: center;

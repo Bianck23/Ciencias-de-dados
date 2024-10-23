@@ -79,3 +79,87 @@ footer {
 .lala-lu{
     width: 60%;
 }
+@import url("menu.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.cabeçario-1{
+    
+    background-color: #c4ceb3;
+    display: flex;
+    justify-items: center;
+    
+}
+.cabeçario-pricipal{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.cabeçario-2{
+    background-color: #d8e1e6;
+    color: #000116;
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 0;
+    font-size: 24px;
+
+
+}
+.intem{
+    margin: 0 16px;
+    display: inline-block
+
+}
+.vindas{
+    background-color: #ffeddf;
+    padding: 52px 0;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.vindas-div{
+    width: 60%;
+}
+.titulolagal{
+    padding: 24px 0;
+}
+
+.lala-lu{
+    width: 78%;
+}
+.começo{
+    background-color: #f8f4eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rodape{
+    background-color: #59666f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape-img{
+    width: 10%;
+    
+}
+.href {
+    text-decoration: none;
+    color: #000116;
+   
+}
+.imagemm {
+    justify-content: center;
+    align-items: center;
+
+}

@@ -5,6 +5,8 @@ async function quantidadeUsuarios() {
     const anosdaspeesquisas = Object.keys (dados)
     const plasticonosoceanos = Object.values(dados)
 
+    console.log(dados)
+
     const data = [
         {
             x: anosdaspeesquisas
@@ -13,6 +15,9 @@ async function quantidadeUsuarios() {
 
         }
     ]
-
-      console.log(dados)
+     const grafico = document.createElement('div')
+      grafico.className = 'grafico'
+      document.getElementById('grafico-container').appendChild(grafico)
+      plotly.newplot(grafico)
   }
+  quantidadeUsuarios()
